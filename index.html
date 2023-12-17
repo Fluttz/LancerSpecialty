@@ -964,6 +964,22 @@ function updator(){
 			errorep = errorep + "<br>LL not high enough for LL11 boost!";
 		}
 	}
+
+	if (pboost > 6) {
+		errorep = errorep + "<br>Physical Conditioning is over +6!";
+	}
+
+	if (fboost > 6) {
+		errorep = errorep + "<br>Finesse is over +6!";
+	}
+
+	if (kboost > 6) {
+		errorep = errorep + "<br>Know-How is over +6!";
+	}
+
+	if (rboost > 6) {
+		errorep = errorep + "<br>Rizz is over +6!";
+	}
 	
 	if (currpoints > 0){
 		errorep = errorep + "<br>Skill Trigger points left assigned!";
