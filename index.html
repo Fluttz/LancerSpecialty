@@ -104,7 +104,7 @@ LL11 Boost: <select id="boost11" class="boost11">
 </select>
 <p>&nbsp;</p>
 
-<p style="color:red;" id="errorout"><br>Specialty not selected!<br>LL0 boost not selected!<br>Skill Trigger points left assigned!</p>
+<p style="color:red;" id="errorout"><br>Specialty not selected!<br>LL0 boost not selected!<br>Skill Trigger points left unassigned!</p>
 <p>&nbsp;</p>
 <p id="skillout">Skill Trigger Points Remaining: 4/4</p>
 
@@ -982,7 +982,7 @@ function updator(){
 	}
 	
 	if (currpoints > 0){
-		errorep = errorep + "<br>Skill Trigger points left assigned!";
+		errorep = errorep + "<br>Skill Trigger points left unassigned!";
 	}
 	
 	if (currpoints < 0){
