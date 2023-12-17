@@ -1,0 +1,1000 @@
+License Level: <select id="ll" class="ll">
+<option selected="selected">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="1">5</option>
+<option value="2">6</option>
+<option value="3">7</option>
+<option value="4">8</option>
+<option value="1">9</option>
+<option value="2">10</option>
+<option value="3">11</option>
+<option value="4">12</option>
+</select>
+<p>&nbsp;</p>
+Specialty: <select id="spec" class="spec">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+Flaw: <select id="flaw" class="flaw">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+Flaw Boost 1: <select id="flawb1" class="flawb1">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+Flaw Boost 2: <select id="flawb2" class="flawb2">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p> 
+LL0 Boost: <select id="boost0" class="boost0">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL1 Boost: <select id="boost1" class="boost1">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL3 Boost: <select id="boost3" class="boost3">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL5 Boost: <select id="boost5" class="boost5">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL7 Boost: <select id="boost7" class="boost7">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL9 Boost: <select id="boost9" class="boost9">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+LL11 Boost: <select id="boost11" class="boost11">
+<option selected="selected">None</option>
+<option value="1">Physical Conditioning</option>
+<option value="2">Finesse</option>
+<option value="3">Know-How</option>
+<option value="4">Rizz</option>
+</select>
+<p>&nbsp;</p>
+
+<p style="color:red;" id="errorout"><br>Specialty not selected!<br>LL0 boost not selected!<br>Skill Trigger points left assigned!</p>
+<p>&nbsp;</p>
+<p id="skillout">Skill Trigger Points Remaining: 4/4</p>
+
+
+<table style="border-collapse: collapse; width: 550px; height: 126px;" border="0">
+<tbody>
+  
+ <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;"><strong>Physical Conditioning</strong></td>
+<td style="width: 40px; height: 36px;"><center>0</center></td>
+<td style="width: 40px; height: 36px;"><center>1</center></td>
+<td style="width: 40px; height: 36px;"><center>2</center></td>
+<td style="width: 40px; height: 36px;"><center>3</center></td>
+<td style="width: 40px; height: 36px;"><center>Total</center></td>
+</tr>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Apply Fists to Faces</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p11" name="p1" value="p11" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p12" name="p1" value="p12"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p13" name="p1" value="p13"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p14" name="p1" value="p14"  /></center></td>
+<td id="p1t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Assault</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p21" name="p2" value="p21" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p22" name="p2" value="p22"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p23" name="p2" value="p23"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p24" name="p2" value="p24"  /></center></td>
+<td id="p2t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Blow Something Up</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p31" name="p3" value="p31" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p32" name="p3" value="p32"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p33" name="p3" value="p33"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p34" name="p3" value="p34"  /></center></td>
+<td id="p3t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Survive</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p41" name="p4" value="p41" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p42" name="p4" value="p42"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p43" name="p4" value="p43"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p44" name="p4" value="p44"  /></center></td>
+<td id="p4t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Take Control</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p51" name="p5" value="p51" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p52" name="p5" value="p52"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p53" name="p5" value="p53"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p54" name="p5" value="p54"  /></center></td>
+<td id="p5t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Threaten</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p61" name="p6" value="p61" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p62" name="p6" value="p62"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p63" name="p6" value="p63"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="p64" name="p6" value="p64"  /></center></td>
+<td id="p6t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table style="border-collapse: collapse; width: 550px; height: 126px;" border="0">
+<tbody>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;"><strong>Finesse</strong></td>
+<td style="width: 40px; height: 36px;"><center>0</center></td>
+<td style="width: 40px; height: 36px;"><center>1</center></td>
+<td style="width: 40px; height: 36px;"><center>2</center></td>
+<td style="width: 40px; height: 36px;"><center>3</center></td>
+<td style="width: 40px; height: 36px;"><center>Total</center></td>
+</tr>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Act Unseen or Unheard</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f11" name="f1" value="f11" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f12" name="f1" value="f12"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f13" name="f1" value="f13"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f14" name="f1" value="f14"  /></center></td>
+<td id="f1t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Get Somewhere Quickly</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f21" name="f2" value="f21" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f22" name="f2" value="f22"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f23" name="f2" value="f23"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f24" name="f2" value="f24"  /></center></td>
+<td id="f2t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Show Off</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f31" name="f3" value="f31" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f32" name="f3" value="f32"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f33" name="f3" value="f33"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f34" name="f3" value="f34"  /></center></td>
+<td id="f3t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Stay Cool</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f41" name="f4" value="f41" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f42" name="f4" value="f42"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f43" name="f4" value="f43"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f44" name="f4" value="f44"  /></center></td>
+<td id="f4t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Take Someone Out</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f51" name="f5" value="f51" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f52" name="f5" value="f52"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f53" name="f5" value="f53"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="f54" name="f5" value="f54"  /></center></td>
+<td id="f5t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table style="border-collapse: collapse; width: 550px; height: 126px;" border="0">
+<tbody>
+  
+ <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;"><strong>Know-How</strong></td>
+<td style="width: 40px; height: 36px;"><center>0</center></td>
+<td style="width: 40px; height: 36px;"><center>1</center></td>
+<td style="width: 40px; height: 36px;"><center>2</center></td>
+<td style="width: 40px; height: 36px;"><center>3</center></td>
+<td style="width: 40px; height: 36px;"><center>Total</center></td>
+</tr>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Hack or Fix</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k11" name="k1" value="k11" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k12" name="k1" value="k12"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k13" name="k1" value="k13"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k14" name="k1" value="k14"  /></center></td>
+<td id="k1t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Invent or Create</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k21" name="k2" value="k21" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k22" name="k2" value="k22"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k23" name="k2" value="k23"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k24" name="k2" value="k24"  /></center></td>
+<td id="k2t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Investigate</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k31" name="k3" value="k31" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k32" name="k3" value="k32"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k33" name="k3" value="k33"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k34" name="k3" value="k34"  /></center></td>
+<td id="k3t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Patch</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k41" name="k4" value="k41" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k42" name="k4" value="k42"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k43" name="k4" value="k43"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k44" name="k4" value="k44"  /></center></td>
+<td id="k4t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Read a Situation</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k51" name="k5" value="k51" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k52" name="k5" value="k52"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k53" name="k5" value="k53"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k54" name="k5" value="k54"  /></center></td>
+<td id="k5t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Spot</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k61" name="k6" value="k61" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k62" name="k6" value="k62"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k63" name="k6" value="k63"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="k64" name="k6" value="k64"  /></center></td>
+<td id="k6t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<table style="border-collapse: collapse; width: 550px; height: 126px;" border="0">
+<tbody>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;"><strong>Rizz</strong></td>
+<td style="width: 40px; height: 36px;"><center>0</center></td>
+<td style="width: 40px; height: 36px;"><center>1</center></td>
+<td style="width: 40px; height: 36px;"><center>2</center></td>
+<td style="width: 40px; height: 36px;"><center>3</center></td>
+<td style="width: 40px; height: 36px;"><center>Total</center></td>
+</tr>
+  
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Charm</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r11" name="r1" value="r11" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r12" name="r1" value="r12"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r13" name="r1" value="r13"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r14" name="r1" value="r14"  /></center></td>
+<td id="r1t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+
+<tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Get a Hold of Something</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r21" name="r2" value="r21" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r22" name="r2" value="r22"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r23" name="r2" value="r23"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r24" name="r2" value="r24"  /></center></td>
+<td id="r2t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Lead or Inspire</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r31" name="r3" value="r31" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r32" name="r3" value="r32"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r33" name="r3" value="r33"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r34" name="r3" value="r34"  /></center></td>
+<td id="r3t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Pull Rank</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r41" name="r4" value="r41" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r42" name="r4" value="r42"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r43" name="r4" value="r43"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r44" name="r4" value="r44"  /></center></td>
+<td id="r4t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+  <tr style="height: 36px;">
+<td style="width: 120px; height: 36px;">Word on the Street</td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r51" name="r5" value="r51" checked /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r52" name="r5" value="r52"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r53" name="r5" value="r53"  /></center></td>
+<td style="width: 40px; height: 36px;"><center><input type="radio" id="r54" name="r5" value="r54"  /></center></td>
+<td id="r5t" style="width: 40px; height: 36px;"><center>0</center></td>
+</tr>
+  
+</tbody>
+</table>
+<script>
+const select1 = document.querySelector(".ll");
+const select2 = document.querySelector(".spec");
+const select3 = document.querySelector(".flaw");
+const select4 = document.querySelector(".flawb1");
+const select5 = document.querySelector(".flawb2");
+const select6 = document.querySelector(".boost0");
+const select7 = document.querySelector(".boost1");
+const select8 = document.querySelector(".boost3");
+const select9 = document.querySelector(".boost5");
+const select10 = document.querySelector(".boost7");
+const select11 = document.querySelector(".boost9");
+const select12 = document.querySelector(".boost11");
+
+select1.addEventListener("change", (event) => {updator();});
+select2.addEventListener("change", (event) => {updator();});
+select3.addEventListener("change", (event) => {updator();});
+select4.addEventListener("change", (event) => {updator();});
+select5.addEventListener("change", (event) => {updator();});
+select6.addEventListener("change", (event) => {updator();});
+select7.addEventListener("change", (event) => {updator();});
+select8.addEventListener("change", (event) => {updator();});
+select9.addEventListener("change", (event) => {updator();});
+select10.addEventListener("change", (event) => {updator();});
+select11.addEventListener("change", (event) => {updator();});
+select12.addEventListener("change", (event) => {updator();});
+
+var totalpoints = 4;
+var currpoints = 4;
+var pringus = -1;
+
+var pboost = 0;
+var fboost = 0;
+var kboost = 0;
+var rboost = 0;
+
+var ep1 = document.getElementsByName('p1');
+for (i = 0; i < ep1.length; i++) {
+	ep1[i].addEventListener('change', function() {updator();});
+}
+
+var ep2 = document.getElementsByName('p2');
+for (i = 0; i < ep2.length; i++) {
+	ep2[i].addEventListener('change', function() {updator();});
+}
+
+var ep3 = document.getElementsByName('p3');
+for (i = 0; i < ep3.length; i++) {
+	ep3[i].addEventListener('change', function() {updator();});
+}
+
+var ep4 = document.getElementsByName('p4');
+for (i = 0; i < ep4.length; i++) {
+	ep4[i].addEventListener('change', function() {updator();});
+}
+
+var ep5 = document.getElementsByName('p5');
+for (i = 0; i < ep5.length; i++) {
+	ep5[i].addEventListener('change', function() {updator();});
+}
+
+var ep6 = document.getElementsByName('p6');
+for (i = 0; i < ep6.length; i++) {
+	ep6[i].addEventListener('change', function() {updator();});
+}
+
+var ef1 = document.getElementsByName('f1');
+for (i = 0; i < ef1.length; i++) {
+	ef1[i].addEventListener('change', function() {updator();});
+}
+
+var ef2 = document.getElementsByName('f2');
+for (i = 0; i < ef2.length; i++) {
+	ef2[i].addEventListener('change', function() {updator();});
+}
+
+var ef3 = document.getElementsByName('f3');
+for (i = 0; i < ef3.length; i++) {
+	ef3[i].addEventListener('change', function() {updator();});
+}
+
+var ef4 = document.getElementsByName('f4');
+for (i = 0; i < ef4.length; i++) {
+	ef4[i].addEventListener('change', function() {updator();});
+}
+
+var ef5 = document.getElementsByName('f5');
+for (i = 0; i < ef5.length; i++) {
+	ef5[i].addEventListener('change', function() {updator();});
+}
+
+var ek1 = document.getElementsByName('k1');
+for (i = 0; i < ek1.length; i++) {
+	ek1[i].addEventListener('change', function() {updator();});
+}
+
+var ek2 = document.getElementsByName('k2');
+for (i = 0; i < ek2.length; i++) {
+	ek2[i].addEventListener('change', function() {updator();});
+}
+
+var ek3 = document.getElementsByName('k3');
+for (i = 0; i < ek3.length; i++) {
+	ek3[i].addEventListener('change', function() {updator();});
+}
+
+var ek4 = document.getElementsByName('k4');
+for (i = 0; i < ek4.length; i++) {
+	ek4[i].addEventListener('change', function() {updator();});
+}
+
+var ek5 = document.getElementsByName('k5');
+for (i = 0; i < ek5.length; i++) {
+	ek5[i].addEventListener('change', function() {updator();});
+}
+
+var ek6 = document.getElementsByName('k6');
+for (i = 0; i < ek6.length; i++) {
+	ek6[i].addEventListener('change', function() {updator();});
+}
+
+var er1 = document.getElementsByName('r1');
+for (i = 0; i < er1.length; i++) {
+	er1[i].addEventListener('change', function() {updator();});
+}
+
+var er2 = document.getElementsByName('r2');
+for (i = 0; i < er2.length; i++) {
+	er2[i].addEventListener('change', function() {updator();});
+}
+
+var er3 = document.getElementsByName('r3');
+for (i = 0; i < er3.length; i++) {
+	er3[i].addEventListener('change', function() {updator();});
+}
+
+var er4 = document.getElementsByName('r4');
+for (i = 0; i < er4.length; i++) {
+	er4[i].addEventListener('change', function() {updator();});
+}
+
+var er5 = document.getElementsByName('r5');
+for (i = 0; i < er5.length; i++) {
+	er5[i].addEventListener('change', function() {updator();});
+}
+
+
+
+
+
+
+function updator(){
+	totalpoints = document.querySelector(".ll").selectedIndex + 4;
+	currpoints = totalpoints;
+	
+	pboost = 0;
+	fboost = 0;
+	kboost = 0;
+	rboost = 0;
+	
+	switch(document.querySelector(".spec").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".flaw").selectedIndex){
+		case 1:
+			pboost = pboost - 2;
+			break;
+		case 2:
+			fboost = fboost - 2;
+			break;
+		case 3:
+			kboost = kboost - 2;
+			break;
+		case 4:
+			rboost = rboost - 2;
+			break;
+	}
+	switch(document.querySelector(".flawb1").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".flawb2").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost0").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost1").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost3").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost5").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost7").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost9").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+	switch(document.querySelector(".boost11").selectedIndex){
+		case 1:
+			pboost++;
+			break;
+		case 2:
+			fboost++;
+			break;
+		case 3:
+			kboost++;
+			break;
+		case 4:
+			rboost++;
+			break;
+	}
+
+
+	var maxskill = 0;
+	
+	for (i = 0; i < ep1.length; i++) {
+		if (ep1[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p1t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+	
+	for (i = 0; i < ep2.length; i++) {
+		if (ep2[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p2t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ep3.length; i++) {
+		if (ep3[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p3t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ep4.length; i++) {
+		if (ep4[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p4t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ep5.length; i++) {
+		if (ep5[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p5t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ep6.length; i++) {
+		if (ep6[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("p6t").innerHTML = cent(pboost+i);
+		}	
+	}
+	
+		for (i = 0; i < ef1.length; i++) {
+		if (ef1[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("f1t").innerHTML = cent(fboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ef2.length; i++) {
+		if (ef2[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("f2t").innerHTML = cent(fboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ef3.length; i++) {
+		if (ef3[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("f3t").innerHTML = cent(fboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ef4.length; i++) {
+		if (ef4[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("f4t").innerHTML = cent(fboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ef5.length; i++) {
+		if (ef5[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("f5t").innerHTML = cent(fboost+i);
+		}	
+	}
+	
+		for (i = 0; i < ek1.length; i++) {
+		if (ek1[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k1t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ek2.length; i++) {
+		if (ek2[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k2t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ek3.length; i++) {
+		if (ek3[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k3t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ek4.length; i++) {
+		if (ek4[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k4t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ek5.length; i++) {
+		if (ek5[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k5t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+	for (i = 0; i < ek6.length; i++) {
+		if (ek6[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("k6t").innerHTML = cent(kboost+i);
+		}	
+	}
+	
+		for (i = 0; i < er1.length; i++) {
+		if (er1[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("r1t").innerHTML = cent(rboost+i);
+		}	
+	}
+	
+	for (i = 0; i < er2.length; i++) {
+		if (er2[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("r2t").innerHTML = cent(rboost+i);
+		}	
+	}
+	
+	for (i = 0; i < er3.length; i++) {
+		if (er3[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("r3t").innerHTML = cent(rboost+i);
+		}	
+	}
+	
+	for (i = 0; i < er4.length; i++) {
+		if (er4[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("r4t").innerHTML = cent(rboost+i);
+		}	
+	}
+	
+	for (i = 0; i < er5.length; i++) {
+		if (er5[i].checked){
+			currpoints = currpoints - i;
+			if (maxskill<i) maxskill = i;
+			document.getElementById("r5t").innerHTML = cent(rboost+i);
+		}	
+	}
+
+	
+	var errorep = "";
+	
+	if (document.querySelector(".spec").selectedIndex == 0){
+		errorep = errorep + "<br>Specialty not selected!";
+	}
+	
+	
+	if (document.querySelector(".flaw").selectedIndex != 0){
+		if (document.querySelector(".spec").selectedIndex == document.querySelector(".flaw").selectedIndex){
+			errorep = errorep + "<br>Flaw can't be the same as Specialty!";
+		}
+		if (document.querySelector(".flawb1").selectedIndex == 0){
+			errorep = errorep + "<br>Flaw Boost 1 not selected!";
+		} else if (document.querySelector(".flaw").selectedIndex == document.querySelector(".flawb1").selectedIndex){
+			errorep = errorep + "<br>Flaw Boost 1 can't be the same as Flaw!";
+		}
+		if (document.querySelector(".flawb2").selectedIndex == 0){
+			errorep = errorep + "<br>Flaw Boost 2 not selected!";
+		} else if (document.querySelector(".flaw").selectedIndex == document.querySelector(".flawb2").selectedIndex){
+			errorep = errorep + "<br>Flaw Boost 2 can't be the same as Flaw!";
+		}
+	} else {
+		if (document.querySelector(".flawb1").selectedIndex != 0){
+			errorep = errorep + "<br>Flaw Boost 1 selected with no Flaw!";
+		}
+		if (document.querySelector(".flawb2").selectedIndex != 0){
+			errorep = errorep + "<br>Flaw Boost 2 selected with no Flaw!";
+		}
+	}
+	
+	
+	if (document.querySelector(".boost0").selectedIndex == 0){
+		errorep = errorep + "<br>LL0 boost not selected!";
+	} else {
+		if (document.querySelector(".boost0").selectedIndex == document.querySelector(".spec").selectedIndex){
+			errorep = errorep + "<br>LL0 boost can't be the same as Specialty!";
+		}
+	}
+	
+	if (document.querySelector(".boost1").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 1){
+			errorep = errorep + "<br>LL1 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 1){
+			errorep = errorep + "<br>LL not high enough for LL1 boost!";
+		}
+	}
+	
+	if (document.querySelector(".boost3").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 3){
+			errorep = errorep + "<br>LL3 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 3){
+			errorep = errorep + "<br>LL not high enough for LL3 boost!";
+		}
+	}
+	
+	if (document.querySelector(".boost5").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 5){
+			errorep = errorep + "<br>LL5 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 5){
+			errorep = errorep + "<br>LL not high enough for LL5 boost!";
+		}
+	}
+	
+	if (document.querySelector(".boost7").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 7){
+			errorep = errorep + "<br>LL7 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 7){
+			errorep = errorep + "<br>LL not high enough for LL7 boost!";
+		}
+	}
+	
+	if (document.querySelector(".boost9").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 9){
+			errorep = errorep + "<br>LL9 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 9){
+			errorep = errorep + "<br>LL not high enough for LL9 boost!";
+		}
+	}
+	
+	if (document.querySelector(".boost11").selectedIndex == 0){
+		if (document.querySelector(".ll").selectedIndex >= 11){
+			errorep = errorep + "<br>LL11 boost not selected!";
+		}
+	} else {
+		if (document.querySelector(".ll").selectedIndex < 11){
+			errorep = errorep + "<br>LL not high enough for LL11 boost!";
+		}
+	}
+	
+	if (currpoints > 0){
+		errorep = errorep + "<br>Skill Trigger points left assigned!";
+	}
+	
+	if (currpoints < 0){
+		errorep = errorep + "<br>Too many Skill Trigger points assigned!";
+	}
+	
+	if (maxskill==2){
+		if (document.querySelector(".ll").selectedIndex < 1){
+			errorep = errorep + "<br>Can't assign more than 1 point to a Skill Trigger until LL1!";
+		}
+	} else if (maxskill==3){
+		if (document.querySelector(".ll").selectedIndex < 2){
+			errorep = errorep + "<br>Can't assign more than 2 points to a Skill Trigger until LL2!";
+		}
+	}
+	
+	if (errorep == ""){
+		document.getElementById("errorout").style.color = "green";
+		errorep = "<br>No errors found!";
+	} else {
+		document.getElementById("errorout").style.color = "red";
+	}
+	
+	document.getElementById("errorout").innerHTML = errorep;
+	document.getElementById("skillout").innerHTML = "Skill Trigger Points Remaining: "+currpoints+"/"+totalpoints;
+}
+
+function cent(inp){
+	return "<center>"+inp+"</center>";
+}
+
+</script>
